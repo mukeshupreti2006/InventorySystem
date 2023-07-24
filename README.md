@@ -1,4 +1,4 @@
-Java Spring Boot Technical Interview Test - PRADEEPIT
+Rest Services basic of exceptional handling validation , Test cases
 
 Welcome to our Java Spring Boot technical interview test! This test is designed to assess your understanding of the Java
 Spring Boot framework and your ability to build practical applications.
