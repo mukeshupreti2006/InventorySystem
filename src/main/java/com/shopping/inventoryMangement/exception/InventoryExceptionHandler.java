@@ -16,7 +16,7 @@ public class InventoryExceptionHandler {
         return new ResponseEntity<>(inventoryException, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @ExceptionHandler(Exception.class)
+    @ExceptionHandler(InventoryException.class)
     protected ResponseEntity<InventoryException> handleApplicationException(InventoryException exception){
         InventoryException inventoryException= new InventoryException(exception.getMessage(),exception.getMessage());
         return new ResponseEntity<>(inventoryException, HttpStatus.INTERNAL_SERVER_ERROR);
